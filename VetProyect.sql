@@ -42,7 +42,7 @@ CREATE TABLE "species" (
   "name" varchar(50) NOT NULL
 );
 
-CREATE TABLE "pets" (
+CREATE TABLE "pet" (
   "id" serial PRIMARY KEY,
   "owner_id" integer NOT NULL,
   "species_id" integer NOT NULL,
